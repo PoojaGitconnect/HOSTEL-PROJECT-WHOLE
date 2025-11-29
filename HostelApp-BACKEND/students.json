@@ -12,5 +12,12 @@
     "register_no": "1246",
     "room_no": null,
     "course": null
+  },
+  {
+    "id": 3,
+    "name": "Shyam",
+    "register_no": "123456",
+    "room_no": null,
+    "course": null
   }
 ]

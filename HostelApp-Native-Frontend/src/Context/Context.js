@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
+
 // import firestore from "@react-native-firebase/firestore";
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
@@ -7,7 +8,7 @@ export const ApiContext = createContext();
 
 export const ApiProvider = ({ children }) => {
   // Base states
-  const [baseIp, setBaseIp] = useState("http://192.168.43.137:3000");
+  const [baseIp, setBaseIp] = useState("http://192.168.1.18:3000");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 

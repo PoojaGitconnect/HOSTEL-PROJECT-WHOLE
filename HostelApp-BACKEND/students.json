@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Ishita",
+    "register_no": "1245",
+    "room_no": null,
+    "course": null
+  },
+  {
+    "id": 2,
+    "name": "Kumkum",
+    "register_no": "1246",
+    "room_no": null,
+    "course": null
+  }
+]

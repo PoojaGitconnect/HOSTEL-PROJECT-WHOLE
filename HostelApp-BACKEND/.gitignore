@@ -1,0 +1,63 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test / introspection cache
+.pytest_cache/
+.mypy_cache/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage output
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+hypothesis/
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables and secrets
+.env
+.env.local
+*.env
+
+# Local databases
+*.sqlite3
+
+# IDE/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+
+# Backend runtime / data files (do not commit local runtime/exported data)
+students.json
+logs.json
